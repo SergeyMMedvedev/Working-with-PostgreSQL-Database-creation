@@ -26,7 +26,8 @@ VALUES
     (5, 5, 5),
     (6, 6, 3),
     (7, 7, 5),
-    (8, 8, 1);
+    (8, 8, 1),
+    (9, 1, 1);
    
 INSERT INTO albums (id, name, year)
 VALUES
@@ -36,8 +37,8 @@ VALUES
     (4, 'Dookie', 1994),
     (5, 'Death Magnetic', 2018),
     (6, 'Before I Self Destruct', 2009),
-    (7, 'Meteora',2003),
-    (8, 'Lowa', 2001);
+    (7, 'Meteora',2019),
+    (8, 'Lowa', 2020);
     
 INSERT INTO albums_and_artists (id, album_id, artist_id)
 VALUES
